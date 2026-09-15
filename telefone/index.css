@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+
+h1{
+    display: inline;
+    color: pink;
+    border-bottom: 1px solid pink;
+}
