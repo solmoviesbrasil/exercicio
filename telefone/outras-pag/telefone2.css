@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    background: black url('../fotos/fundo-madeira.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#container-celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div#container-celular img{
+    height: 740px;
+}
+
+div#container-celular iframe{
+    position: absolute;
+    height: 556px;
+    max-width: 314px;
+    width: 100%;
+    top: 94px;
+    left: 27px;
+}
+
+section#rede-sociais ul{
+    position: absolute;
+    padding: 50px;
+    right: 0;
+}
+
+section#rede-sociais li{
+    list-style-type: none;
+    line-height: 40px;
+}
+section#rede-sociais img{
+    width: 50px;
+    border-radius: 30px;
+}
+
+section#rede-sociais img:hover{
+    transform: translate(-5px, 0px);
+    transition: transform .2s ease-in-out, border 1s;
+    border: 2px solid #b3ff0054;
+    box-shadow: 0px 0px 6px yellow;
+}
